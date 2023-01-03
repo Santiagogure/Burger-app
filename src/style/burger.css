@@ -1,0 +1,84 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.burgerContainer{
+	/* width: 100vw; */
+	min-height: 100vh;
+	padding: 5rem calc((100vw - 1300px) / 2);
+	background: #0f0a0a;
+	color: #fff;
+}
+
+.burgerWrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.burgerCard{
+	margin: 0 2rem;
+	line-height: 2;
+	width: 300px;
+
+}
+.burgerImg{
+	height: 200px;
+	box-shadow: 5px 3px #cea903;
+  width: auto;
+}
+
+.burgerHeading{
+	font-size: clamp(2rem, 2.5vw, 3rem);
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
+.protTitle{
+	font-weight: 400;
+	font-size: 1.7rem;
+}
+
+.burgerInfo{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2rem;
+	text-align: center;
+}
+
+.burgerDesc{
+	margin-bottom: 1rem;
+}
+
+.burgerPrice{
+	margin-bottom: 1rem;
+	font-size: 2rem;
+	margin-top: auto;
+
+}
+
+.burgerBtn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1rem;
+	padding: 1rem 4rem;
+	border: none;
+	background: #F76D28;
+	color: #fff;
+	transition: 0.2 ease-out;
+}
+.burgerBtn:hover {
+    background: black; 
+	color: #eee;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+}
+
+#button-cart {
+  fill: #eee;
+  margin-left: 5px;
+}

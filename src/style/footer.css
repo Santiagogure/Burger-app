@@ -1,0 +1,35 @@
+.footerContainer{
+	background-color: black;
+	display: flex;
+    color: white;
+	justify-content: center;
+	align-items: flex-start;
+	height: 100%;
+    min-height: 71px;
+	max-width: 100%;
+	max-height: 100%;
+	min-width: 50vh;
+}
+
+.footerColumn{
+	padding: 16px 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+    font-size: 1rem;
+}
+
+.footerColumn div{
+  margin-top: 5px;
+}
+
+.footerColumn a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+

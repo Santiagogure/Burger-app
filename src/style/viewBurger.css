@@ -1,0 +1,94 @@
+
+
+
+.burger-view {
+    margin-top: 5%;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.burgerCard-view {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+
+#back-view {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.burgerview-img {
+  min-width: 40px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 5px 3px #cea903;
+}
+
+.protTitle-view {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 3.5vw;
+    width: 20px;
+}
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    .burgerCard-view {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .protTitle-view {
+        font-size: 30px;
+        justify-content: center;
+        width: 300px;
+    }
+
+    .burger-view {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .burgerInfo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+ 
+}
+
+
+@media screen and (max-width: 450px) {
+    .burgerview-img {
+        min-width: 40px;
+        max-width: 200px;
+        width: 100%;
+        box-shadow: 5px 3px #cea903;
+      }
+
+
+      .burgerBtn {
+          max-width: 210px;
+          width: 100%;
+      }
+      
+      #burger-desc-view {
+        display: none;
+      }
+}
