@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { AppContext } from "../context/dataProvider";
 import { Slide } from "react-awesome-reveal"
-import "../style/viewBurger.css";
+import "../componentes/style/viewBurger.css";
 import "boxicons";
 import Footer from "../componentes/Footer";
 

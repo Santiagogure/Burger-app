@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from 'react'
 import { AppContext } from '../context/dataProvider'
 import { Link } from 'react-router-dom';
-import '../style/cart.css'
+import '../componentes/style/cart.css'
 import Footer from '../componentes/Footer';
 import { Slide } from "react-awesome-reveal"
 

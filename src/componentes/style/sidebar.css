@@ -43,20 +43,19 @@
 }
 
 .sideMenu{
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: repeat(4, 80px);
-	text-align: center;
-  margin-bottom: 5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	justify-content: center;
+	align-items: center;
+    margin-bottom: 5rem;
 }
 
 @media screen and (max-width: 480px) {
 	.close {
 		margin-right: 15px;
 	}
-  .sideMenu {
-    grid-template-rows: repeat(4, 60px);
-  }
+
 }
 
 .sideLink{
