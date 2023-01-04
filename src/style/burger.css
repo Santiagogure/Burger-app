@@ -82,3 +82,16 @@
   fill: #eee;
   margin-left: 5px;
 }
+
+
+@media screen and (max-width: 450px) { 
+.burgerContainer{
+	width: 121%;
+}
+}
+
+@media screen and (max-width: 390px) {
+	.burgerContainer{
+		width: 126.9%;
+	}
+} 

@@ -4,7 +4,7 @@ import '../style/sidebar.css'
 
 
 export const Sidebar = ({ toggle, show }) => {
-	const scrollTo = (id) => {
+	const scroll = (id) => {
 		const element = document.getElementById(id);
 
 		toggle();
@@ -19,19 +19,19 @@ export const Sidebar = ({ toggle, show }) => {
 				<box-icon style={{fill: 'white', position: 'relative', top: '2px'}} name='right-arrow-alt'></box-icon>
 			</div>
 			<div className="sideMenu">
-				<Link to="/" className="sideLink" onClick={() => scrollTo('menu')}>
+				<Link to="/" className="sideLink" onClick={() => scroll('menu')}>
 					Menu
 				</Link>
-				<Link to="/" className="sideLink" onClick={() => scrollTo('next')}>
+				<Link to="/" className="sideLink" onClick={() => scroll('next')}>
 					Next burger
 				</Link>
-				<Link to="/" className="sideLink" onClick={() => scrollTo('staff')}>
+				<Link to="/" className="sideLink" onClick={() => scroll('staff')}>
 					Staff
 				</Link>
 				<Link to="/cart" className="sideLink">
 					Cart
 				</Link>
-				<Link to="/" className="sideLink" onClick={() => scrollTo('footer')}>
+				<Link to="/" className="sideLink" onClick={() => scroll('footer')}>
 					Contact
 				</Link>
 			</div>

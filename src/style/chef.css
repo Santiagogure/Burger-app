@@ -12,3 +12,15 @@
 	background: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url('../images/kitchen.jpg');
 	color: rgb(255, 255, 255);
 }
+
+@media screen and (max-width: 450px) {
+	.chefContainer {
+		width: 121%;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.chefContainer {
+		width: 127%;
+	}
+}

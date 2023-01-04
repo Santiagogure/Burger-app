@@ -1,11 +1,5 @@
 import React, { createContext, useEffect, useState } from "react";
-import cake1 from '../images/cake1.jpg';
-import cake2 from '../images/cake2.jpg';
-import cake3 from '../images/cake3.jpg';
-import cake4 from '../images/cake4.jpg';
-import cake5 from '../images/cake5.jpg';
-import cake6 from '../images/cake6.jpg';
-import chef1 from '../images/chef1.jpg';
+
 import chef2 from '../images/chef2.jpg';
 
 import chef from '../images/Chef.jpg'

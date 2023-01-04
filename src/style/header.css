@@ -7,8 +7,8 @@
 }
 
 .content{
-	height: calc(100vh - 80px);
-	max-height: 100%;
+   height: calc(100vh - 80px);
+   max-height: 100%;
    display: flex;
    justify-content: flex-start;
    align-items: center;
@@ -17,7 +17,7 @@
 .contentItems{
 	/* background: #f76d2844; */
 	display: flex;
-  width: clamp(100%,650,100%);
+    width: clamp(100%,650,100%);
 	flex-direction: column;
 	height: 100vh;
 	justify-content: center;
@@ -73,5 +73,17 @@ p{
       display: flex;
 	  justify-content: center;
 	  align-items: center;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.container{
+		width: 121%;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.container{
+		width: 127%;
 	}
 }

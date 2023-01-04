@@ -1,11 +1,12 @@
 .sideContainer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	position: fixed;
 	z-index: 100;
 	width: 350px;
 	height: 100%;
 	background: black;
-	display: grid;
-	align-items: center;
 	top: 0;
 	transition: left 0.3s ease-in-out;
 	left: -500px;
@@ -20,9 +21,6 @@
   }
 }
 
-/* export const CloseIcon = styled(FaTimes){
-	color: #000;
-} */
 
 .close{
 	display: flex;

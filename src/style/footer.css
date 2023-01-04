@@ -31,5 +31,19 @@
 }
 
 
+@media screen and (max-width: 450px) {
+	.footerContainer {
+		max-width: 121%;
+		width: 121%;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.footerContainer {
+		max-width: 127%;
+		width: 127%;
+	}
+}
+
 
 
