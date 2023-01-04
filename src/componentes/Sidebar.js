@@ -13,8 +13,58 @@ export const Sidebar = ({ toggle, show }) => {
 		});
 	};
 	return (
-		<div className={`sideContainer ${show ? 'show' : ''}`}>
-			<div className="close" onClick={toggle}>
+          <>	
+		  {show ? 
+		  		<div className='sideContainer' style={{
+					display: 'flex',
+					justifyContent: 'center',
+					alignItems: 'center',
+					position: 'fixed',
+					zIndex: '100',
+					width: '350px',
+					height: '100%',
+					background: 'black',
+					top: '0',
+					transition: 'left 0.3s ease-in-out',
+					left: '-500px'}}>
+					<div className="close" onClick={toggle}> 
+						Close
+						<box-icon style={{fill: 'white', position: 'relative', top: '2px'}} name='right-arrow-alt'></box-icon>
+					</div>
+					<div className="sideMenu">
+						<Link to="/" className="sideLink" onClick={() => scroll('menu')}>
+							Menu
+						</Link>
+						<Link to="/" className="sideLink" onClick={() => scroll('next')}>
+							Next burger
+						</Link>
+						<Link to="/" className="sideLink" onClick={() => scroll('staff')}>
+							Staff
+						</Link>
+						<Link to="/cart" className="sideLink">
+							Cart
+						</Link>
+						<Link to="/" className="sideLink" onClick={() => scroll('footer')}>
+							Contact
+						</Link>
+					</div>
+				</div>
+		:
+ 
+
+		<div className='sideContainer show' style={{
+			display: 'flex',
+			justifyContent: 'center',
+			alignItems: 'center',
+			position: 'fixed',
+			zIndex: '100',
+			width: '350px',
+			height: '100%',
+			background: 'black',
+			top: '0',
+			transition: 'left 0.3s ease-in-out',
+			left: '0'}}>
+			<div className="close" onClick={toggle}> 
 				Close
 				<box-icon style={{fill: 'white', position: 'relative', top: '2px'}} name='right-arrow-alt'></box-icon>
 			</div>
@@ -36,6 +86,10 @@ export const Sidebar = ({ toggle, show }) => {
 				</Link>
 			</div>
 		</div>
+		
+		}
+
+		</>	
 	);
 };
 
