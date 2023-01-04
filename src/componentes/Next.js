@@ -1,6 +1,6 @@
 import React from "react";
 import { Slide } from "react-awesome-reveal"
-import "../style/next.css";
+import "../componentes/style/next.css";
 import nextBurger from "../images/burger-favorite.jpg";
 
 const Next = ({ id }) => {

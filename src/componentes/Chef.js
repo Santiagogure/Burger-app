@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { Slide } from "react-awesome-reveal";
 import { AppContext } from '../context/dataProvider';
-import '../style/chef.css'
+import '../componentes/style/chef.css'
 
 
 const Chefs = ({ id }) => {

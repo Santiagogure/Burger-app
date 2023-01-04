@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/footer.css'
+import '../componentes/style/footer.css'
 
 function redirect(url) {
   window.location = url

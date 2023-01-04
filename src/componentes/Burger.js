@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Slide } from "react-awesome-reveal";
 import { Link } from 'react-router-dom';
 import { AppContext } from '../context/dataProvider';
-import '../style/burger.css'
+import '../componentes/style/burger.css'
 
 
 
