@@ -12,7 +12,6 @@ export const AllComponents = () => {
     <div>
         <Header></Header>
         <Burger id="menu"></Burger>
-        {/* <Next id="favorite"></> */}
         <Next id="next"></Next>
         <Chefs id="staff"></Chefs>
         <Footer id='footer'></Footer>

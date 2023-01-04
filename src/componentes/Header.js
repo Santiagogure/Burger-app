@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbar from "./NavBar";
 import Sidebar from "./Sidebar";
 import "../style/header.css";
+import  '../style/sidebar.css'
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -14,7 +15,7 @@ const Header = () => {
   return (
     <div className="container">
       <Navbar toggle={toggle}></Navbar>
-      <Sidebar show={show} toggle={toggle}></Sidebar>
+      <Sidebar  show={show} toggle={toggle}></Sidebar>
       <div className="content">
         <div className="contentItems">
           <h1 className="navHead">The best burgers in the city</h1>
