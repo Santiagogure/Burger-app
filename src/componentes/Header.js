@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "./NavBar";
 import Sidebar from "./Sidebar";
 import "../style/header.css";
-import  '../style/sidebar.css'
+import  './style/sidebar.css'
 import { Link } from "react-router-dom";
 
 const Header = () => {

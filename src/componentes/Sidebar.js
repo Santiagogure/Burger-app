@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../style/sidebar.css'
+import  './style/sidebar.css'
 
 
 export const Sidebar = ({ toggle, show }) => {
