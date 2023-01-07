@@ -15,7 +15,7 @@
 }
 
 .contentItems{
-	/* background: #f76d2844; */
+
 	display: flex;
     width: clamp(100%,650,100%);
 	flex-direction: column;
@@ -73,6 +73,12 @@ p{
 
 @media screen and (max-width: 800px) {
 
+	.content {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
 	.contentItems {
 		align-items: center;
 	}
@@ -95,10 +101,11 @@ p{
 
 @media screen and (max-width: 500px) {
 	.content {
-      display: flex;
-	  justify-content: center;
-	  align-items: center;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
 	}
+
 }
 
 @media screen and (max-width: 450px) {
@@ -115,6 +122,6 @@ p{
 
 @media screen and (max-width: 350px) {
 	.container{
-		width: 152%;
+		width: 15%;
 	}
 }
