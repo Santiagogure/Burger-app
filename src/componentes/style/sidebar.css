@@ -53,6 +53,8 @@
 }
 
 @media screen and (max-width: 480px) {
+
+	
 	.close {
 		margin-right: 15px;
 	}

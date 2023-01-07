@@ -26,9 +26,9 @@ const Burger = ({ id }) => {
 						left={index < 3 ? true : false}
 					>
 						<div className="burgerCard" style={{cursor: 'pointer'}}>
-						<Link to={`/buy/${burger.id}`}>
+						{/* <Link to={`/buy/${burger.id}`}> */}
 							<img src={burger.img} className="burgerImg" alt={burger.alt} />
-							</Link>
+							{/* </Link> */}
 							<div className="burgerInfo">
 								<div className="protTitle">{burger.title}</div>
 								<div className="protDesc">{burger.desc}</div>
