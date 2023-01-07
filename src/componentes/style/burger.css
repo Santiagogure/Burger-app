@@ -4,7 +4,7 @@
 
 
 .burgerContainer{
-	/* width: 100vw; */
+	
 	min-height: 100vh;
 	padding: 5rem calc((100vw - 1300px) / 2);
 	background: #0f0a0a;
@@ -27,7 +27,7 @@
 .burgerImg{
 	height: 200px;
 	box-shadow: 5px 3px #cea903;
-  width: auto;
+    width: auto;
 }
 
 .burgerHeading{
@@ -84,6 +84,47 @@
 }
 
 
+@media screen and (max-width: 800px) {
+
+	.burgerContainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.burgerImg{
+		height: 140px;
+		box-shadow: 5px 3px #cea903;
+		width: 200px;
+	}
+
+	.burgerInfo{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 2rem;
+		text-align: center;
+		font-size: 2.2vw;
+	}
+
+	.protTitle{
+		font-weight: 400;
+		font-size: 4vw;
+	}
+
+	.burgerPrice{
+		margin-bottom: 1rem;
+		font-size: 4vw;
+		margin-top: auto;
+	}
+
+	.burgerBtn{
+		max-height: 80px;
+		max-width: 200px;
+	}
+}
+
 @media screen and (max-width: 450px) { 
 .burgerContainer{
 	width: 121%;
@@ -93,5 +134,11 @@
 @media screen and (max-width: 390px) {
 	.burgerContainer{
 		width: 126.9%;
+	}
+} 
+
+@media screen and (max-width: 350px) {
+	.burgerContainer{
+		width: 152%;
 	}
 } 

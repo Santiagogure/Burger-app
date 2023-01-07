@@ -12,7 +12,7 @@ import { Cart } from "../cart/cart";
 
 export const AppRouter = () => {
   return (
-    <div>
+    <div style={{display: 'flex', width: "100%", alignItems: 'center', justifyContent: 'center'}}>
       <DataProvider>
       <Routes>
       <Route path="" element={<AllComponents/>}></Route>

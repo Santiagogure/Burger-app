@@ -23,7 +23,7 @@ const Chefs = ({ id }) => {
 						<div className="burgerCard" style={{cursor: 'pointer'}}>
 							<img src={chef.img} className="chefImg" alt={chef.alt} />
 							<div className="burgerInfo">
-								<div className="protTitle">{chef.name}</div>
+								<div className="protTitle" id='chefName'>{chef.name}</div>
 							</div>
 						</div>
 					</Slide>

@@ -18,6 +18,10 @@ export default function DataProvider({ children }) {
 	const [cart, setCart] = useState([])
 	const [total, setTotal] = useState()
 
+
+    
+	
+
 	useEffect(() => { 
 		if(cart) {
 		 setCart(cart)
@@ -193,7 +197,8 @@ export default function DataProvider({ children }) {
 	  downCantidad,
 	  total,
 	  setTotal,
-	  deleteFromCart
+	  deleteFromCart,
+
   };
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;

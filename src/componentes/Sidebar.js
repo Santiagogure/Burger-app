@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { SideMenu } from "./sideMenu";
 import "./style/sidebar.css";
 
 export const Sidebar = ({ toggle, show }) => {
@@ -37,23 +38,7 @@ export const Sidebar = ({ toggle, show }) => {
               name="right-arrow-alt"
             ></box-icon>
           </div>
-          <div className="sideMenu">
-            <Link to="/" className="sideLink" onClick={() => scroll("menu")}>
-              Menu
-            </Link>
-            <Link to="/" className="sideLink" onClick={() => scroll("next")}>
-              Next burger
-            </Link>
-            <Link to="/" className="sideLink" onClick={() => scroll("staff")}>
-              Staff
-            </Link>
-            <Link to="/cart" className="sideLink">
-              Cart
-            </Link>
-            <Link to="/" className="sideLink" onClick={() => scroll("footer")}>
-              Contact
-            </Link>
-          </div>
+          <SideMenu scroll={scroll} />
         </div>
       ) : (
         <div
@@ -79,23 +64,7 @@ export const Sidebar = ({ toggle, show }) => {
               name="right-arrow-alt"
             ></box-icon>
           </div>
-          <div className="sideMenu">
-            <Link to="/" className="sideLink" onClick={() => scroll("menu")}>
-              Menu
-            </Link>
-            <Link to="/" className="sideLink" onClick={() => scroll("next")}>
-              Next burger
-            </Link>
-            <Link to="/" className="sideLink" onClick={() => scroll("staff")}>
-              Staff
-            </Link>
-            <Link to="/cart" className="sideLink">
-              Cart
-            </Link>
-            <Link to="/" className="sideLink" onClick={() => scroll("footer")}>
-              Contact
-            </Link>
-          </div>
+          <SideMenu scroll={scroll} />
         </div>
       )}
     </>

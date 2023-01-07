@@ -46,4 +46,12 @@
 }
 
 
+@media screen and (max-width: 350px) {
+	.footerContainer {
+		max-width: 155%;
+		width: 152%;
+	}
+}
+
+
 

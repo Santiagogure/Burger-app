@@ -13,6 +13,30 @@
 	color: rgb(255, 255, 255);
 }
 
+@media screen and (max-width: 800px) {
+
+	.chefContainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.burgerHeading {
+		font-size: 9vw;
+		max-width: 200px;
+	}
+
+	.chefImg {
+		max-width: 200px;
+		width: 250px;
+	}
+
+	#chefName {
+		font-size: 6vw;
+	}
+}
+
 @media screen and (max-width: 450px) {
 	.chefContainer {
 		width: 121%;
@@ -24,3 +48,11 @@
 		width: 127%;
 	}
 }
+
+
+@media screen and (max-width: 350px) {
+	.chefContainer {
+		min-width: 150%;
+		width: 151.8%;
+	}
+} 

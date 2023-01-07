@@ -18,7 +18,7 @@ const Header = () => {
       <Sidebar  show={show} toggle={toggle}></Sidebar>
       <div className="content">
         <div className="contentItems">
-          <h1 className="navHead">The best burgers in the city</h1>
+          <h1 className="navHead">The Best Burgers In The City</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

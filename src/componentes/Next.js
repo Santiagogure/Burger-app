@@ -6,7 +6,7 @@ import nextBurger from "../images/burger-favorite.jpg";
 const Next = ({ id }) => {
   return (
     <div className="nextContainer" id={id}>
-      <h2>The next burger</h2>
+      <h2>The Next Burger</h2>
       <div className="nextContent">
         <Slide>
           <img
